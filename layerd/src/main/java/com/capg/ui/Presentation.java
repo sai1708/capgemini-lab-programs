@@ -22,7 +22,7 @@ public class Presentation {
 			System.out.println("Press 1 for AddTrainee");
 			System.out.println("Press 2 for Find Trainee");
 			System.out.println("Press 3 for Remove Trainee");
-			System.out.println("Press 3 for View Trainee");
+			System.out.println("Press 4 for View Trainee");
 			do {
 				scan=new Scanner(System.in);
 				System.out.println("Please enter from the above Options");
