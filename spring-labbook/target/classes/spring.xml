@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ 
+ 
+  <bean id="emp" class="com.capg.spring.spring_labbook.Employee">
+  <property name="id" value="100"></property>
+  <property name="name" value="sai"/>
+  <property name="salary" value="150000"/>
+  <property name="bu" value="sales"/>
+  <property name="age" value="22"/>
+  <property name="bussinessunit" ref="sbu"></property>
+  </bean>
+  <!--  </bean>
+   
+   <bean id="employee" class="com.capg.spring.spring_labbook">   
+ 	<constructor-arg name="age" value="22"/> -->
+ 	
+ 	
+ 	<bean id="sbu" class="com.capg.spring.spring_labbook.SBU">
+    <property name="id" value="101"/>
+    <property name="name" value="ram"></property>
+    <property name="head" value="nag"></property>
+    </bean>
+
+
+</beans>
