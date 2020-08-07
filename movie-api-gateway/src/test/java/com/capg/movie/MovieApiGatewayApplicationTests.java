@@ -1,10 +1,10 @@
-package com.capg.lab.product.db;
+package com.capg.movie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductLabBookDbApplicationTests {
+class MovieApiGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {
